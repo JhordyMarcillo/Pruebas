@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js",
-    "lint": "npx eslint"
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
