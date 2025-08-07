@@ -1,5 +1,5 @@
 {
-  "name": "lab3",
+  "name": "lab2-3p",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,9 +7,9 @@
     "start": "node index.js",
     "lint": "npx eslint"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^5.1.0"
   },
@@ -17,5 +17,14 @@
     "eslint": "^9.32.0",
     "jest": "^30.0.5"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhordyMarcillo/Pruebas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JhordyMarcillo/Pruebas/issues"
+  },
+  "homepage": "https://github.com/JhordyMarcillo/Pruebas#readme",
+  "description": ""
 }
