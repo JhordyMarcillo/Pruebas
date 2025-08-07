@@ -19,6 +19,11 @@ jobs:
       
       - name: Instalar dependencias
         run: npm install
+
+      - name: Limpiar caché de npm e instalar dependencias
+        run: |
+            npm cache clean --force
+            npm install
       
       - name: Lint del código
         run: npm run lint
