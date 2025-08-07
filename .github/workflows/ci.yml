@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clonar repositorio
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
@@ -21,7 +21,7 @@ jobs:
         run: npm install
       
       - name: Lint del código
-        run: npm run lint
+        run: npx eslint .
 
       - name: Ejecutar pruebas
         run: npm test
