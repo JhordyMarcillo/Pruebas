@@ -25,6 +25,9 @@ jobs:
             npm cache clean --force
             npm install
       
+      - name: Corregir dependencias vulnerables
+        run: npm audit fix
+
       - name: Lint del código
         run: npm run lint
 
