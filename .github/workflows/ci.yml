@@ -21,7 +21,7 @@ jobs:
         run: npm install
       
       - name: Lint del código
-        run: npx eslint .
+        run: npm run lint
 
       - name: Ejecutar pruebas
         run: npm test
