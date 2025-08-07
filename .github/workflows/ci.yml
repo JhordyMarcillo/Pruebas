@@ -18,7 +18,7 @@ jobs:
           node-version: '20' 
       
       - name: Instalar dependencias
-        run: npm install
+        run: npm install, npm install eslint jest supertest --save-dev 
 
       - name: Limpiar caché de npm e instalar dependencias
         run: |
