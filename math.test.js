@@ -11,7 +11,7 @@ describe('Pruebas para funciones matemáticas', () => {
     });
 
     test('debería lanzar un error para números negativos', () => {
-      expect(() => factorial(-1)).toThrow("El factorial no está definido para números negativos.");
+      expect(() => factorial(-1)).toThrow('El factorial no está definido para números negativos.');
     });
   });
 
@@ -29,7 +29,7 @@ describe('Pruebas para funciones matemáticas', () => {
     });
 
     test('debería lanzar un error para números negativos', () => {
-      expect(() => fibonacci(-1)).toThrow("La secuencia de Fibonacci no está definida para números negativos.");
+      expect(() => fibonacci(-1)).toThrow('La secuencia de Fibonacci no está definida para números negativos.');
     });
   });
 });

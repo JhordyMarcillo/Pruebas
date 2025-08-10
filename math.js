@@ -1,7 +1,7 @@
 
 function factorial(n) {
   if (n < 0) {
-    throw new Error("El factorial no está definido para números negativos.");
+    throw new Error('El factorial no está definido para números negativos.');
   }
   if (n === 0) {
     return 1;
@@ -15,7 +15,7 @@ function factorial(n) {
 
 function fibonacci(n) {
   if (n < 0) {
-    throw new Error("La secuencia de Fibonacci no está definida para números negativos.");
+    throw new Error('La secuencia de Fibonacci no está definida para números negativos.');
   }
   if (n <= 1) {
     return n;
