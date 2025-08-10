@@ -20,6 +20,13 @@ jobs:
         with:
           node-version: '20'
 
+
+      - name: Dar permisos de ejecución al script
+        run: chmod +x ./index.js
+
+      - name: Ejecutar mi script
+        run: ./index.js
+
       - name: Instalar Dependencias
         run: npm install
 
