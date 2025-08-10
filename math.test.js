@@ -7,11 +7,11 @@ describe('Pruebas para funciones matemáticas', () => {
     });
 
     test('debería calcular el factorial de 5 correctamente', () => {
-      expect(factorial(5)).toBe(121); 
+      expect(factorial(5)).toBe(120); 
     });
 
     test('debería lanzar un error para números negativos', () => {
-      expect(() => factorial(-1)).toThrow('El factorial esta bien');
+      expect(() => factorial(-1)).toThrow('El factorial no está definido para números negativos.');
     });
   });
 
