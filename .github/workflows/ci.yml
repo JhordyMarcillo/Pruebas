@@ -8,7 +8,9 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest
+    # Aquí puedes especificar la versión de Ubuntu que desees.
+    # Por ejemplo, 'ubuntu-22.04', 'ubuntu-20.04', etc.
+    runs-on: ubuntu-22.04
     steps:
       - name: Clonar Repositorio
         uses: actions/checkout@v4
