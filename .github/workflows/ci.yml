@@ -19,7 +19,7 @@ jobs:
           node-version: '20'
 
        # --- Paso de diagnóstico ---
-      - name: Verificar si eslint se instaló
+      - name: Verificar si eslint se instaló correctamente
         run: ls -la node_modules/.bin/eslint
       # ---------------------------
 
