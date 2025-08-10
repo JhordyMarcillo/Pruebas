@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Clonar Repositorio
         uses: actions/checkout@v4
