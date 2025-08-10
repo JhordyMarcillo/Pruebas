@@ -24,7 +24,7 @@ jobs:
       # ---------------------------
 
       - name: Lint del Código
-        run: npm run eslint
+        run: npm run lint
 
       - name: Instalar Dependencias
         run: npm install
